@@ -5,10 +5,10 @@ local fisica = require('physics')
 --declarando variaveis sensiveis ao escopo main
 	--imagens
 local fundo = display.newImageRect('fundo.jpg', 768/2.4, 1280/2.4)
-local coruja = display.newImageRect('coruja.png', 40, 70)
-local chao_nuvem = display.newImageRect('nuvem.png', 768/2.4, 240/2.4)
 local ponte = display.newImageRect('ponte.png', 120, 90)
+local coruja = display.newImageRect('coruja.png', 40, 70)
 local ponte_nuvem = display.newImageRect('nuvem2.png', 180, 120)
+local chao_nuvem = display.newImageRect('nuvem.png', 768/2.4, 240/2.4)
 	--end--
 	--blocos de colisão
 local chao_nuvem_soul = display.newRect(display.contentCenterX, 450, display.contentWidth, 10)
