@@ -26,7 +26,7 @@ local function atualizaDica( indice )
 	if (indice >= '10') and (indice <= '11') then
 		frase = 'Vamos, entre...'
 	end
-	if (indice >= 40) and (indice <= 41) then
+	if (indice >= '40') and (indice <= '41') then
 		frase = 'Não demore!'
 	end
 	if not (frase == '') then
