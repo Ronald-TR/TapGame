@@ -1,2 +1,2 @@
 # TapGame
-Starting with Games writed in Lua, using Corona SDK
+Starting with Games written in Lua, using Corona SDK for this!
